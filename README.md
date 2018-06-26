@@ -36,4 +36,4 @@ By default, location list jumping with `:lnext` and `:lprevious` works like the 
 - You can't jump from above the first error to the first error (or from below the last error to the last error) using `:lnext` (`:lprevious`): you have to use `:lfirst` (`:llast`) instead.
 - The location list doesn't wrap (you can't jump beyond the first error or the last error with `:lprevious`/`:lnext`).
 
-Since location lists are local to the current window, you might find it more useful to jump to errors based on the current cursor position, and allow jumps to wrap past the first and last errors. Perpetuloc defines the following commands:
+Since location lists are local to the current window, you might find it more useful to jump to errors based on the current cursor position, and allow jumps to wrap past the first and last errors. The `:Lnext` and `:Lprevious` defined by perpetuloc offer "continuous" (i.e. perpetual) location list jumping, instead of the default "discrete" jumping.
