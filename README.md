@@ -2,7 +2,7 @@
 
 Cursor-based location list jumping for vim.
 
-# Commands
+## Commands
 
 - `:[count]Lnext` - jump to the [count] next error in the location list after the current cursor position, regardless of what vim has as the "current" error. If on or after the last error, jump to the first error.
 - `:[count]Lprevious` - jump to the [count] previous error in the location list before the current cursor position, regardless of what vim has as the "current" error. If on or before the first error, jump to the last error.
