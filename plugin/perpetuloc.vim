@@ -1,3 +1,8 @@
+" Cursor-based location list jumping
+" Last Change:  https://github.com/msrose/vim-perpetuloc/commits/master
+" Maintainer:   Michael Rose <michael_rose@outlook.com>
+" License:      https://github.com/msrose/vim-perpetuloc/blob/master/LICENSE
+
 if exists('g:loaded_perpetuloc')
   finish
 endif

@@ -1,0 +1,23 @@
+*perpetuloc.txt* Cursor-based location list jumping
+
+Commands                                                 *perpetuloc-commands*
+
+                                                           *perpetuloc-:Lnext*
+:[count]Lnext   Jump to the [count] next error in the location list after the
+                current cursor position, regardless of what vim has as the
+                "current" error. If on or after the last error, jump to the
+                first error.
+
+                                                           *perpetuloc-:Lnext*
+:[count]Lprevious   Jump to the [count] previous error in the location list
+                    before the current cursor position, regardless of what vim
+                    has as the "current" error. If on or before the first
+                    error, jump to the last error.
+
+                                                          *perpetuloc-:Lfirst*
+:Lfirst[!] [nr]   An alias for :lfirst (see :h :lfirst)
+
+                                                           *perpetuloc-:Llast*
+:Llast[!] [nr]    An alias for :llast (see :h :llast)
+
+vim:tw=78:ft=help
